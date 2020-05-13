@@ -5,7 +5,7 @@ source "https://github.com/dhgns/pod-repository.git"
 
 target 'new-pod' do
   # Comment the next line if you don't want to use dynamic frameworks
-  pod 'WebviewSantalucia', '1.0.1'
+  pod 'WebviewSantalucia'
  
 
   target 'new-podTests' do
