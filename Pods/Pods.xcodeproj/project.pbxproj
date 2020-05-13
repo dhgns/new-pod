@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		264B49856D5280BED8C2462B251C1517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		266CDCDD5878069DCE0D26633E0DA5E7 /* Pods-new-pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF329CFB5DF99C8D93ADB78AA3601AF3 /* Pods-new-pod-dummy.m */; };
-		40D7EF3BD5948D05E0675AA24B41DD37 /* Pods-new-podTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1689E6191E505F457DEC5F6DAAA59EED /* Pods-new-podTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E62735A60FB66592DFA282E8AEE2E175 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EF3D87279C14DB88362357517D3961A9 /* Pods-new-podTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0010327D1B5F53ABE3DC1865440268 /* Pods-new-podTests-dummy.m */; };
-		F1831811E81C94D581FB397887E65991 /* Pods-new-pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EDB977213F17BEAB3264EF69AC4145F /* Pods-new-pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02A2C71E60603A7CCBDCF659A23805F0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70623E6A43818E22A923D7E082A105E3 /* WebKit.framework */; };
+		08CD7D5FDE86E037C1A730403ECDA051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */; };
+		264B49856D5280BED8C2462B251C1517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */; };
+		2A3356E36629F6DC0BDC6F0597D5D0B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */; };
+		40D7EF3BD5948D05E0675AA24B41DD37 /* Pods-new-podTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3176EE8A0880631BA98918570B96C440 /* Pods-new-podTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		510AFB05AF72A7C39A3877D888D84600 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67DA81A75DBAA54230BA78A263FE61E /* UIKit.framework */; };
+		8D6E262E90C87E47157ECB1388FBE992 /* Pods-new-pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FCCFB156B92B6E4ECD9816DF3596966 /* Pods-new-pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941F6417CC08D01033225CBEB2685C76 /* Pods-new-pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C24E5FCB5D4F262EFC41B8D91EB35 /* Pods-new-pod-dummy.m */; };
+		9D8224F6AF6B5693B0FFCA751C586010 /* SantaluciaWebAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB9C889F9B878EA7C60F75649C628A /* SantaluciaWebAssembler.swift */; };
+		A22D248A7A748D8404467E5217264B95 /* WebviewSantalucia-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E77532ECC0D0A2F0EDEE749E8F385C /* WebviewSantalucia-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB793BD628E8BBA4AF0162949DC34766 /* SantaluciaWebPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA771276ECA4BFD49A3F30743D1AA2DE /* SantaluciaWebPresenter.swift */; };
+		DA27D650CEDFD886F98A02E3A247FA0C /* WebviewSantalucia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8686FEDAE76CF1D297D9C811F0AEE /* WebviewSantalucia-dummy.m */; };
+		E43333FF8FBA87F688BD255A1DD8FDB5 /* SantaluciaWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0408FE7CE5C9244E41C026500B3A8B /* SantaluciaWebController.swift */; };
+		EF3D87279C14DB88362357517D3961A9 /* Pods-new-podTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E5A01769215B7D900E908321AFE1B /* Pods-new-podTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,37 +31,68 @@
 			remoteGlobalIDString = C1035B27E8A57E54FEDAB6CC95CD42F5;
 			remoteInfo = "Pods-new-pod";
 		};
+		9034B5E62989C447FAAB2A49C13E00F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C91F6109BFA3268DA1256EEE9CF41C;
+			remoteInfo = WebviewSantalucia;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FE3E870C6EFF15A2A73A8D35AFB8373 /* Pods-new-podTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-new-podTests-Info.plist"; sourceTree = "<group>"; };
-		1689E6191E505F457DEC5F6DAAA59EED /* Pods-new-podTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-new-podTests-umbrella.h"; sourceTree = "<group>"; };
-		24BFC62768FC060DFF415203B77DF95A /* Pods-new-podTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-new-podTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		284463F496C02A4183DB855EC4FAA0F3 /* Pods-new-pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-new-pod.release.xcconfig"; sourceTree = "<group>"; };
-		2BDD14952EE8B7C7B274459913AA2720 /* Pods-new-pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-new-pod-Info.plist"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		047E5A01769215B7D900E908321AFE1B /* Pods-new-podTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-new-podTests-dummy.m"; sourceTree = "<group>"; };
+		0DD8F778F60A298D1A71A2C84365F8CB /* Pods-new-podTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-new-podTests.modulemap"; sourceTree = "<group>"; };
+		1FE65EBA04EEFE76E138D9FEDE1C0702 /* Pods-new-pod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-new-pod-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E6C2063BE52E233B95089FFB58F424D /* WebviewSantalucia-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WebviewSantalucia-Info.plist"; sourceTree = "<group>"; };
+		3176EE8A0880631BA98918570B96C440 /* Pods-new-podTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-new-podTests-umbrella.h"; sourceTree = "<group>"; };
+		37808F237778A9405B23387B0B70CC80 /* Pods-new-podTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-new-podTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		41F5402BD56AD702C8A91F7D93BACA7F /* Pods-new-pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-new-pod.modulemap"; sourceTree = "<group>"; };
+		45B8686FEDAE76CF1D297D9C811F0AEE /* WebviewSantalucia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebviewSantalucia-dummy.m"; sourceTree = "<group>"; };
 		46470CDD9979FB7824893566E3B765AD /* Pods_new_pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_new_pod.framework; path = "Pods-new-pod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E0010327D1B5F53ABE3DC1865440268 /* Pods-new-podTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-new-podTests-dummy.m"; sourceTree = "<group>"; };
-		5B8758D65A9D4F33C4DB03DA83D6FD53 /* Pods-new-podTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-new-podTests.modulemap"; sourceTree = "<group>"; };
-		5EB96E8B3D8C898C8E2342275DEEDC40 /* Pods-new-podTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-new-podTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		60CA0B3DF449099289A4BDE8716D5F8E /* Pods-new-podTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-new-podTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6EF92C188624A1CBCA0B9F74BD3000BF /* Pods-new-pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-new-pod.debug.xcconfig"; sourceTree = "<group>"; };
-		9115C191F5E73F0B90FB01733F59E316 /* Pods-new-pod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-new-pod-acknowledgements.plist"; sourceTree = "<group>"; };
+		4FCCFB156B92B6E4ECD9816DF3596966 /* Pods-new-pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-new-pod-umbrella.h"; sourceTree = "<group>"; };
+		5C0C24E5FCB5D4F262EFC41B8D91EB35 /* Pods-new-pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-new-pod-dummy.m"; sourceTree = "<group>"; };
+		5DB87642B9AD0F6B3A4104221382C8BF /* Pods-new-podTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-new-podTests-Info.plist"; sourceTree = "<group>"; };
+		631745F536F3CE7139783B15C8CF8454 /* Pods-new-pod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-new-pod-acknowledgements.markdown"; sourceTree = "<group>"; };
+		650345B5553B85A0D3C9E3F6AAAC3749 /* Pods-new-podTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-new-podTests.release.xcconfig"; sourceTree = "<group>"; };
+		66B7D5493DAC3039953C1AABBBE51A9E /* Pods-new-pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-new-pod.debug.xcconfig"; sourceTree = "<group>"; };
+		6CBF839DA49FE163FD7F527255C395FE /* WebviewSantalucia-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebviewSantalucia-prefix.pch"; sourceTree = "<group>"; };
+		70623E6A43818E22A923D7E082A105E3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		93A55A8155DCC87C1AEB936EBFCC2940 /* WebviewSantalucia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebviewSantalucia.release.xcconfig; sourceTree = "<group>"; };
+		99CE53D1A0CCDC40474A09E867D3DEA4 /* WebviewSantalucia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WebviewSantalucia.framework; path = WebviewSantalucia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EDB977213F17BEAB3264EF69AC4145F /* Pods-new-pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-new-pod-umbrella.h"; sourceTree = "<group>"; };
+		9DDDD3CAF1A6B44CEEDFC0507F5C5FD5 /* Pods-new-podTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-new-podTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3D1A49F306DA620D336BBF5F67799C1 /* Pods_new_podTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_new_podTests.framework; path = "Pods-new-podTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA2E907F2D956AD06A3754D2CB1B6198 /* Pods-new-pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-new-pod.modulemap"; sourceTree = "<group>"; };
-		D71A3DB40B15FF920B0E85052B07284E /* Pods-new-podTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-new-podTests.release.xcconfig"; sourceTree = "<group>"; };
-		EF329CFB5DF99C8D93ADB78AA3601AF3 /* Pods-new-pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-new-pod-dummy.m"; sourceTree = "<group>"; };
-		F9F1E16394CCABB97C1676CA4F466B73 /* Pods-new-pod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-new-pod-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5D760F47FE4B5FBB7F912349BE2CA48 /* Pods-new-pod-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-new-pod-frameworks.sh"; sourceTree = "<group>"; };
+		B6F31B54AFAC4B0FB9E385426E23E0E4 /* WebviewSantalucia.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WebviewSantalucia.modulemap; sourceTree = "<group>"; };
+		BB44A6D80A87F15DD7F11C5C75421635 /* Pods-new-podTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-new-podTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE0408FE7CE5C9244E41C026500B3A8B /* SantaluciaWebController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SantaluciaWebController.swift; path = WebviewSantalucia/Component/SantaluciaWebController.swift; sourceTree = "<group>"; };
+		C8614EA8C8445715ECD5C13E6FE44756 /* WebviewSantalucia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebviewSantalucia.debug.xcconfig; sourceTree = "<group>"; };
+		CEBB9C889F9B878EA7C60F75649C628A /* SantaluciaWebAssembler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SantaluciaWebAssembler.swift; path = WebviewSantalucia/Component/SantaluciaWebAssembler.swift; sourceTree = "<group>"; };
+		D0B6E0D22822AAD0D05C287D57CD5451 /* Pods-new-pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-new-pod-Info.plist"; sourceTree = "<group>"; };
+		D67DA81A75DBAA54230BA78A263FE61E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E6E77532ECC0D0A2F0EDEE749E8F385C /* WebviewSantalucia-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebviewSantalucia-umbrella.h"; sourceTree = "<group>"; };
+		FA771276ECA4BFD49A3F30743D1AA2DE /* SantaluciaWebPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SantaluciaWebPresenter.swift; path = WebviewSantalucia/Component/SantaluciaWebPresenter.swift; sourceTree = "<group>"; };
+		FB32CB27CE062642D0145E0EE2A6CB2C /* Pods-new-pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-new-pod.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4DCF311232BCE3497569C8AECF28127A /* Frameworks */ = {
+		0A8825692E1562780137C8CCCDEEBA95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E62735A60FB66592DFA282E8AEE2E175 /* Foundation.framework in Frameworks */,
+				2A3356E36629F6DC0BDC6F0597D5D0B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ED0E5E6FA574A438DB784E75F32720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08CD7D5FDE86E037C1A730403ECDA051 /* Foundation.framework in Frameworks */,
+				510AFB05AF72A7C39A3877D888D84600 /* UIKit.framework in Frameworks */,
+				02A2C71E60603A7CCBDCF659A23805F0 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,90 +107,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4294C1C00546A807BBAA927CF52FBBE0 /* Targets Support Files */ = {
+		01E51FDDCE74CEFD3C6FB4939A0E62F1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D1C8220AF6230AE5B6F1D7641739D31A /* Pods-new-pod */,
-				5D93036864623832EC6F5EAE12B8F5A9 /* Pods-new-podTests */,
+				DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */,
+				D67DA81A75DBAA54230BA78A263FE61E /* UIKit.framework */,
+				70623E6A43818E22A923D7E082A105E3 /* WebKit.framework */,
 			);
-			name = "Targets Support Files";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		5D93036864623832EC6F5EAE12B8F5A9 /* Pods-new-podTests */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B8758D65A9D4F33C4DB03DA83D6FD53 /* Pods-new-podTests.modulemap */,
-				24BFC62768FC060DFF415203B77DF95A /* Pods-new-podTests-acknowledgements.markdown */,
-				5EB96E8B3D8C898C8E2342275DEEDC40 /* Pods-new-podTests-acknowledgements.plist */,
-				4E0010327D1B5F53ABE3DC1865440268 /* Pods-new-podTests-dummy.m */,
-				0FE3E870C6EFF15A2A73A8D35AFB8373 /* Pods-new-podTests-Info.plist */,
-				1689E6191E505F457DEC5F6DAAA59EED /* Pods-new-podTests-umbrella.h */,
-				60CA0B3DF449099289A4BDE8716D5F8E /* Pods-new-podTests.debug.xcconfig */,
-				D71A3DB40B15FF920B0E85052B07284E /* Pods-new-podTests.release.xcconfig */,
+				01E51FDDCE74CEFD3C6FB4939A0E62F1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AE608A1955EEF4DF0AA49B06081D2F4 /* Pods-new-podTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD8F778F60A298D1A71A2C84365F8CB /* Pods-new-podTests.modulemap */,
+				BB44A6D80A87F15DD7F11C5C75421635 /* Pods-new-podTests-acknowledgements.markdown */,
+				37808F237778A9405B23387B0B70CC80 /* Pods-new-podTests-acknowledgements.plist */,
+				047E5A01769215B7D900E908321AFE1B /* Pods-new-podTests-dummy.m */,
+				5DB87642B9AD0F6B3A4104221382C8BF /* Pods-new-podTests-Info.plist */,
+				3176EE8A0880631BA98918570B96C440 /* Pods-new-podTests-umbrella.h */,
+				9DDDD3CAF1A6B44CEEDFC0507F5C5FD5 /* Pods-new-podTests.debug.xcconfig */,
+				650345B5553B85A0D3C9E3F6AAAC3749 /* Pods-new-podTests.release.xcconfig */,
 			);
 			name = "Pods-new-podTests";
 			path = "Target Support Files/Pods-new-podTests";
 			sourceTree = "<group>";
 		};
-		6CF46A8DF8208CD99684E73A1DB44F92 /* Products */ = {
+		1E093E8A413DA8363C85F897F33FB4AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				46470CDD9979FB7824893566E3B765AD /* Pods_new_pod.framework */,
 				A3D1A49F306DA620D336BBF5F67799C1 /* Pods_new_podTests.framework */,
+				99CE53D1A0CCDC40474A09E867D3DEA4 /* WebviewSantalucia.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		278D6C9103CE495FFF5DA0EDC01856E4 /* Pods-new-pod */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				41F5402BD56AD702C8A91F7D93BACA7F /* Pods-new-pod.modulemap */,
+				631745F536F3CE7139783B15C8CF8454 /* Pods-new-pod-acknowledgements.markdown */,
+				1FE65EBA04EEFE76E138D9FEDE1C0702 /* Pods-new-pod-acknowledgements.plist */,
+				5C0C24E5FCB5D4F262EFC41B8D91EB35 /* Pods-new-pod-dummy.m */,
+				B5D760F47FE4B5FBB7F912349BE2CA48 /* Pods-new-pod-frameworks.sh */,
+				D0B6E0D22822AAD0D05C287D57CD5451 /* Pods-new-pod-Info.plist */,
+				4FCCFB156B92B6E4ECD9816DF3596966 /* Pods-new-pod-umbrella.h */,
+				66B7D5493DAC3039953C1AABBBE51A9E /* Pods-new-pod.debug.xcconfig */,
+				FB32CB27CE062642D0145E0EE2A6CB2C /* Pods-new-pod.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-new-pod";
+			path = "Target Support Files/Pods-new-pod";
+			sourceTree = "<group>";
+		};
+		368E3CE25DC04C4220DFB1611896F7CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6F31B54AFAC4B0FB9E385426E23E0E4 /* WebviewSantalucia.modulemap */,
+				45B8686FEDAE76CF1D297D9C811F0AEE /* WebviewSantalucia-dummy.m */,
+				2E6C2063BE52E233B95089FFB58F424D /* WebviewSantalucia-Info.plist */,
+				6CBF839DA49FE163FD7F527255C395FE /* WebviewSantalucia-prefix.pch */,
+				E6E77532ECC0D0A2F0EDEE749E8F385C /* WebviewSantalucia-umbrella.h */,
+				C8614EA8C8445715ECD5C13E6FE44756 /* WebviewSantalucia.debug.xcconfig */,
+				93A55A8155DCC87C1AEB936EBFCC2940 /* WebviewSantalucia.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WebviewSantalucia";
+			sourceTree = "<group>";
+		};
+		7EB683F49B29CD7BA022BCEF1D8280AE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				278D6C9103CE495FFF5DA0EDC01856E4 /* Pods-new-pod */,
+				0AE608A1955EEF4DF0AA49B06081D2F4 /* Pods-new-podTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A7459DF2DC55734A4552ADE58C556D25 /* WebviewSantalucia */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB9C889F9B878EA7C60F75649C628A /* SantaluciaWebAssembler.swift */,
+				BE0408FE7CE5C9244E41C026500B3A8B /* SantaluciaWebController.swift */,
+				FA771276ECA4BFD49A3F30743D1AA2DE /* SantaluciaWebPresenter.swift */,
+				368E3CE25DC04C4220DFB1611896F7CA /* Support Files */,
+			);
+			name = WebviewSantalucia;
+			path = WebviewSantalucia;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				6CF46A8DF8208CD99684E73A1DB44F92 /* Products */,
-				4294C1C00546A807BBAA927CF52FBBE0 /* Targets Support Files */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				DB0A69CFEF55F74087931FFFCBF030EE /* Pods */,
+				1E093E8A413DA8363C85F897F33FB4AE /* Products */,
+				7EB683F49B29CD7BA022BCEF1D8280AE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D1C8220AF6230AE5B6F1D7641739D31A /* Pods-new-pod */ = {
+		DB0A69CFEF55F74087931FFFCBF030EE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA2E907F2D956AD06A3754D2CB1B6198 /* Pods-new-pod.modulemap */,
-				F9F1E16394CCABB97C1676CA4F466B73 /* Pods-new-pod-acknowledgements.markdown */,
-				9115C191F5E73F0B90FB01733F59E316 /* Pods-new-pod-acknowledgements.plist */,
-				EF329CFB5DF99C8D93ADB78AA3601AF3 /* Pods-new-pod-dummy.m */,
-				2BDD14952EE8B7C7B274459913AA2720 /* Pods-new-pod-Info.plist */,
-				9EDB977213F17BEAB3264EF69AC4145F /* Pods-new-pod-umbrella.h */,
-				6EF92C188624A1CBCA0B9F74BD3000BF /* Pods-new-pod.debug.xcconfig */,
-				284463F496C02A4183DB855EC4FAA0F3 /* Pods-new-pod.release.xcconfig */,
+				A7459DF2DC55734A4552ADE58C556D25 /* WebviewSantalucia */,
 			);
-			name = "Pods-new-pod";
-			path = "Target Support Files/Pods-new-pod";
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3BD9F8A008DBC9F6700D2A7E1373ACAE /* Headers */ = {
+		562FD3F50D834A1FD219E0DC097A70DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1831811E81C94D581FB397887E65991 /* Pods-new-pod-umbrella.h in Headers */,
+				A22D248A7A748D8404467E5217264B95 /* WebviewSantalucia-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AA058913E273A34C83E14B79D8A448 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6E262E90C87E47157ECB1388FBE992 /* Pods-new-pod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +253,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		31C91F6109BFA3268DA1256EEE9CF41C /* WebviewSantalucia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B47ADEB2CB354615EFCD1DDDD4EEE8EF /* Build configuration list for PBXNativeTarget "WebviewSantalucia" */;
+			buildPhases = (
+				562FD3F50D834A1FD219E0DC097A70DD /* Headers */,
+				6B05137BE46CD0B43BC25A07AAED8B1A /* Sources */,
+				10ED0E5E6FA574A438DB784E75F32720 /* Frameworks */,
+				4FA2DDB78FC9EA8E21086BAC81796F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebviewSantalucia;
+			productName = WebviewSantalucia;
+			productReference = 99CE53D1A0CCDC40474A09E867D3DEA4 /* WebviewSantalucia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A83D7B180D60A7C62EDB322C879ACC94 /* Pods-new-podTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7350B616424A525AF77FF813D2327496 /* Build configuration list for PBXNativeTarget "Pods-new-podTests" */;
@@ -187,16 +292,17 @@
 		};
 		C1035B27E8A57E54FEDAB6CC95CD42F5 /* Pods-new-pod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4267BA081ACDD0A920D94EDA993694D7 /* Build configuration list for PBXNativeTarget "Pods-new-pod" */;
+			buildConfigurationList = F6FA1CACA8722DEABA65795DE24D5188 /* Build configuration list for PBXNativeTarget "Pods-new-pod" */;
 			buildPhases = (
-				3BD9F8A008DBC9F6700D2A7E1373ACAE /* Headers */,
-				3E1BFADA3CE074682B4FD490BB558166 /* Sources */,
-				4DCF311232BCE3497569C8AECF28127A /* Frameworks */,
-				9CA7CE854F63DC241EFF4ECDC83B56C9 /* Resources */,
+				72AA058913E273A34C83E14B79D8A448 /* Headers */,
+				ABFA2CE2068E318914788E9AE81C7A45 /* Sources */,
+				0A8825692E1562780137C8CCCDEEBA95 /* Frameworks */,
+				E9999C7BECB490F6B3645C27982850DD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7B64785ABE882C9ED642B1C131CF9FA2 /* PBXTargetDependency */,
 			);
 			name = "Pods-new-pod";
 			productName = "Pods-new-pod";
@@ -221,12 +327,13 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 6CF46A8DF8208CD99684E73A1DB44F92 /* Products */;
+			productRefGroup = 1E093E8A413DA8363C85F897F33FB4AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C1035B27E8A57E54FEDAB6CC95CD42F5 /* Pods-new-pod */,
 				A83D7B180D60A7C62EDB322C879ACC94 /* Pods-new-podTests */,
+				31C91F6109BFA3268DA1256EEE9CF41C /* WebviewSantalucia */,
 			);
 		};
 /* End PBXProject section */
@@ -239,7 +346,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CA7CE854F63DC241EFF4ECDC83B56C9 /* Resources */ = {
+		4FA2DDB78FC9EA8E21086BAC81796F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9999C7BECB490F6B3645C27982850DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -249,11 +363,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3E1BFADA3CE074682B4FD490BB558166 /* Sources */ = {
+		6B05137BE46CD0B43BC25A07AAED8B1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				266CDCDD5878069DCE0D26633E0DA5E7 /* Pods-new-pod-dummy.m in Sources */,
+				9D8224F6AF6B5693B0FFCA751C586010 /* SantaluciaWebAssembler.swift in Sources */,
+				E43333FF8FBA87F688BD255A1DD8FDB5 /* SantaluciaWebController.swift in Sources */,
+				CB793BD628E8BBA4AF0162949DC34766 /* SantaluciaWebPresenter.swift in Sources */,
+				DA27D650CEDFD886F98A02E3A247FA0C /* WebviewSantalucia-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +382,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABFA2CE2068E318914788E9AE81C7A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941F6417CC08D01033225CBEB2685C76 /* Pods-new-pod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7B64785ABE882C9ED642B1C131CF9FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebviewSantalucia;
+			target = 31C91F6109BFA3268DA1256EEE9CF41C /* WebviewSantalucia */;
+			targetProxy = 9034B5E62989C447FAAB2A49C13E00F6 /* PBXContainerItemProxy */;
+		};
 		AB34FB8408419526B991A920DB3D40C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-new-pod";
@@ -277,6 +408,45 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		03FEC41B71775930FBB4C398FBFA3A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB32CB27CE062642D0145E0EE2A6CB2C /* Pods-new-pod.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-new-pod/Pods-new-pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-new-pod/Pods-new-pod.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -341,9 +511,45 @@
 			};
 			name = Debug;
 		};
-		2185DD857795E24508A779901C232ADE /* Release */ = {
+		610AEE6DC9D5D57DC2A9734824D31B59 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 284463F496C02A4183DB855EC4FAA0F3 /* Pods-new-pod.release.xcconfig */;
+			baseConfigurationReference = C8614EA8C8445715ECD5C13E6FE44756 /* WebviewSantalucia.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WebviewSantalucia/WebviewSantalucia-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WebviewSantalucia/WebviewSantalucia-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WebviewSantalucia/WebviewSantalucia.modulemap";
+				PRODUCT_MODULE_NAME = WebviewSantalucia;
+				PRODUCT_NAME = WebviewSantalucia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82EDFC66B9618C0D82E7FA336325A80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B7D5493DAC3039953C1AABBBE51A9E /* Pods-new-pod.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -374,15 +580,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		9683DDEFB098178C8C38AAF8BE41E3B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D71A3DB40B15FF920B0E85052B07284E /* Pods-new-podTests.release.xcconfig */;
+			baseConfigurationReference = 650345B5553B85A0D3C9E3F6AAAC3749 /* Pods-new-podTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -479,9 +684,46 @@
 			};
 			name = Release;
 		};
+		D166DADDC1F4A6F1AEB610EB41B32652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A55A8155DCC87C1AEB936EBFCC2940 /* WebviewSantalucia.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WebviewSantalucia/WebviewSantalucia-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WebviewSantalucia/WebviewSantalucia-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WebviewSantalucia/WebviewSantalucia.modulemap";
+				PRODUCT_MODULE_NAME = WebviewSantalucia;
+				PRODUCT_NAME = WebviewSantalucia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E298E0F529FAB3E872E07D173C870076 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60CA0B3DF449099289A4BDE8716D5F8E /* Pods-new-podTests.debug.xcconfig */;
+			baseConfigurationReference = 9DDDD3CAF1A6B44CEEDFC0507F5C5FD5 /* Pods-new-podTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -517,56 +759,9 @@
 			};
 			name = Debug;
 		};
-		F4E6549247BD749CF2B40A5580C53D91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EF92C188624A1CBCA0B9F74BD3000BF /* Pods-new-pod.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-new-pod/Pods-new-pod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-new-pod/Pods-new-pod.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4267BA081ACDD0A920D94EDA993694D7 /* Build configuration list for PBXNativeTarget "Pods-new-pod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4E6549247BD749CF2B40A5580C53D91 /* Debug */,
-				2185DD857795E24508A779901C232ADE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -581,6 +776,24 @@
 			buildConfigurations = (
 				E298E0F529FAB3E872E07D173C870076 /* Debug */,
 				9683DDEFB098178C8C38AAF8BE41E3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B47ADEB2CB354615EFCD1DDDD4EEE8EF /* Build configuration list for PBXNativeTarget "WebviewSantalucia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610AEE6DC9D5D57DC2A9734824D31B59 /* Debug */,
+				D166DADDC1F4A6F1AEB610EB41B32652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6FA1CACA8722DEABA65795DE24D5188 /* Build configuration list for PBXNativeTarget "Pods-new-pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EDFC66B9618C0D82E7FA336325A80C /* Debug */,
+				03FEC41B71775930FBB4C398FBFA3A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

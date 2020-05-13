@@ -1,0 +1,6 @@
+framework module WebviewSantalucia {
+  umbrella header "WebviewSantalucia-umbrella.h"
+
+  export *
+  module * { export * }
+}

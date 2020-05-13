@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: f7a0449b8720b659f70571b14f81f50b3be5f847
+PODS:
+  - WebviewSantalucia (1.0.1)
+
+DEPENDENCIES:
+  - WebviewSantalucia (= 1.0.1)
+
+SPEC REPOS:
+  https://github.com/dhgns/pod-repository.git:
+    - WebviewSantalucia
+
+SPEC CHECKSUMS:
+  WebviewSantalucia: 1197791eb2dafa3967ffd30256586ad26d0231d8
+
+PODFILE CHECKSUM: a68c2c8621bef2609481cb75ccbaff57b405ffd8
 
 COCOAPODS: 1.9.1
