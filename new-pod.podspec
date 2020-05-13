@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "NewPod"
+  spec.name         = "new-pod"
   spec.version      = "0.0.1"
   spec.summary      = "A short description of NewPod."
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/dhgns/new-pod.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/dhgns/new-pod.git", :branch => "master" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
