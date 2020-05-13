@@ -16,6 +16,7 @@
 		D76B5250246C2DD700C78606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76B524F246C2DD700C78606 /* Assets.xcassets */; };
 		D76B5253246C2DD700C78606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76B5251246C2DD700C78606 /* LaunchScreen.storyboard */; };
 		D76B525E246C2DD700C78606 /* new_podTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B525D246C2DD700C78606 /* new_podTests.swift */; };
+		D76B5269246C2EA500C78606 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D76B5268246C2EA500C78606 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		D76B5259246C2DD700C78606 /* new-podTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "new-podTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76B525D246C2DD700C78606 /* new_podTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new_podTests.swift; sourceTree = "<group>"; };
 		D76B525F246C2DD700C78606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D76B5268246C2EA500C78606 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,6 @@
 				2427D4F0F6BE26EA356CF802 /* Pods-new-podTests.debug.xcconfig */,
 				6BB4F914AB81088E3B9C9FAA /* Pods-new-podTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -92,6 +93,7 @@
 		D76B523A246C2DD500C78606 = {
 			isa = PBXGroup;
 			children = (
+				D76B5268246C2EA500C78606 /* Default-568h@2x.png */,
 				D76B5245246C2DD500C78606 /* new-pod */,
 				D76B525C246C2DD700C78606 /* new-podTests */,
 				D76B5244246C2DD500C78606 /* Products */,
@@ -216,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D76B5253246C2DD700C78606 /* LaunchScreen.storyboard in Resources */,
+				D76B5269246C2EA500C78606 /* Default-568h@2x.png in Resources */,
 				D76B5250246C2DD700C78606 /* Assets.xcassets in Resources */,
 				D76B524E246C2DD500C78606 /* Main.storyboard in Resources */,
 			);
