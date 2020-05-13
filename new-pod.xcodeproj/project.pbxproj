@@ -10,7 +10,6 @@
 		401FB4322BC518DF7D5DF648 /* Pods_new_podTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FF9BD7AEC0F607F2347B2E /* Pods_new_podTests.framework */; };
 		653E2232A49E58B8C3E7596B /* Pods_new_pod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B66B2C2405667F22494231 /* Pods_new_pod.framework */; };
 		D76B5247246C2DD500C78606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B5246246C2DD500C78606 /* AppDelegate.swift */; };
-		D76B5249246C2DD500C78606 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B5248246C2DD500C78606 /* SceneDelegate.swift */; };
 		D76B524B246C2DD500C78606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B524A246C2DD500C78606 /* ViewController.swift */; };
 		D76B524E246C2DD500C78606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76B524C246C2DD500C78606 /* Main.storyboard */; };
 		D76B5250246C2DD700C78606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76B524F246C2DD700C78606 /* Assets.xcassets */; };
@@ -38,7 +37,6 @@
 		B2E267B1C9C8E60C8630F12A /* Pods-new-pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-new-pod.debug.xcconfig"; path = "Target Support Files/Pods-new-pod/Pods-new-pod.debug.xcconfig"; sourceTree = "<group>"; };
 		D76B5243246C2DD500C78606 /* new-pod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "new-pod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76B5246246C2DD500C78606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D76B5248246C2DD500C78606 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D76B524A246C2DD500C78606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D76B524D246C2DD500C78606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D76B524F246C2DD700C78606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				D76B5246246C2DD500C78606 /* AppDelegate.swift */,
-				D76B5248246C2DD500C78606 /* SceneDelegate.swift */,
 				D76B524A246C2DD500C78606 /* ViewController.swift */,
 				D76B524C246C2DD500C78606 /* Main.storyboard */,
 				D76B524F246C2DD700C78606 /* Assets.xcassets */,
@@ -287,7 +284,6 @@
 			files = (
 				D76B524B246C2DD500C78606 /* ViewController.swift in Sources */,
 				D76B5247246C2DD500C78606 /* AppDelegate.swift in Sources */,
-				D76B5249246C2DD500C78606 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z55C678GT4;
 				INFOPLIST_FILE = "new-pod/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z55C678GT4;
 				INFOPLIST_FILE = "new-pod/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
